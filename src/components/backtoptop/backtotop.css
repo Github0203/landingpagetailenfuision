@@ -1,0 +1,8 @@
+.backtotop{
+    background: url("../../images/backtotop.png") no-repeat center;
+    /* display: none; */
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 9999;
+  }

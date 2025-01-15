@@ -1,0 +1,322 @@
+.text-danger {
+    color: #FF4D4F;
+    line-height: 21px;
+    font-weight: 400;
+    font-size: 0.875rem;
+    text-align: left;
+}
+
+.backgroundQR{
+    background: url("../../images/qrcode.png") no-repeat center;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+}
+
+.downloadappstore{
+    background: #fff url("../../images/downloadappstore.png") no-repeat center;
+    width: 100%;
+    height: 71px;
+    border-radius: 11.47px;
+}
+
+.downloadchplay{
+    background: #fff url("../../images/downloadchplay.png") no-repeat center;
+    width: 100%;
+    height: 71px;
+    border-radius: 11.47px;
+}
+
+.imagegioithieu{
+    display: inline-block;
+    background: url("../../images/imagegioithieu.png") no-repeat center;
+    width: 100%;
+    height: 100%;
+    transform: translateY(-00%);
+    transition: 0.5s;
+
+}
+
+.rightgioithieu{
+    width: 50%;
+}
+
+.ellipsegioithieu{
+    width: 100%;
+    height: 33px;
+    transition: 0.5s;
+    background: #958f8f;
+    position: absolute;
+    bottom: 0;
+}
+
+.rightgioithieu:hover .ellipsegioithieu{
+    width: 100%;
+    height: 45px;
+    background: #958f8f;
+    position: fixed;
+    bottom: 0;
+}
+
+.rightgioithieu:hover .imagegioithieu{
+    transform: translateY(-10%);
+}
+
+.icon1{
+    background: url("../../images/iconnghenghiep1.png") no-repeat center;
+}
+
+.icon2{
+    background: url("../../images/iconnghenghiep2.png") no-repeat center;
+}
+
+.icon3{
+    background: url("../../images/iconnghenghiep3.png") no-repeat center;
+}
+
+.icon4{
+    background: url("../../images/iconnghenghiep4.png") no-repeat center;
+}
+
+.icon5{
+    background: url("../../images/iconnghenghiep5.png") no-repeat center;
+}
+
+.icon6{
+    background: url("../../images/iconnghenghiep6.png") no-repeat center;
+}
+
+.icon7{
+    background: url("../../images/iconnghenghiep7.png") no-repeat center;
+}
+
+.icon8{
+    background: url("../../images/iconnghenghiep8.png") no-repeat center;
+}
+
+.icon9{
+    background: url("../../images/iconnghenghiep9.png") no-repeat center;
+}
+
+.icon10{
+    background: url("../../images/iconnghenghiep10.png") no-repeat center;
+}
+
+.workitem{
+    transform: translateY(-00%);
+    transition: 0.5s;
+}
+
+.workitem:hover{
+    transform: translateY(-10%);
+    filter: drop-shadow(0 25px 25px rgb(0 0 0 / 0.15));
+}
+
+.iconcheck{
+    width: 24px;
+    height: 24px;
+    background: url("../../images/iconcheck.png") no-repeat center;
+}
+
+.hinhnghenghiep1{
+    background: url("../../images/hinhnghenghiep1.png") no-repeat center;
+    transition: 0.5s;
+}
+.hinhnghenghiep1::before{
+    background-color: rgba(0, 0, 0, 0.37);
+    content: '';
+    display: none;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    border-radius: 16px;
+  }
+
+  .hinhnghenghiep1::after{
+    background-color: rgba(0, 0, 0, 0.37);
+    content: '';
+    display: none;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    border-radius: 16px;
+    background: url("../../images/iconeye.png") no-repeat center;
+  }
+
+.hinhnghenghiep1:hover::after{
+    display: block;
+}
+.hinhnghenghiep1:hover::before{
+    display: block;
+}
+
+.hinhnghenghiep2{
+    background: url("../../images/hinhnghenghiep2.png") no-repeat center;
+}
+.hinhnghenghiep2::before{
+    background-color: rgba(0, 0, 0, 0.37);
+    content: '';
+    display: none;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    border-radius: 16px;
+  }
+
+  .hinhnghenghiep2::after{
+    background-color: rgba(0, 0, 0, 0.37);
+    content: '';
+    display: none;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    border-radius: 16px;
+    background: url("../../images/iconeye.png") no-repeat center;
+  }
+
+.hinhnghenghiep2:hover::after{
+    display: block;
+}
+.hinhnghenghiep2:hover::before{
+    display: block;
+}
+
+.hinhnghenghiep3{
+    background: url("../../images/hinhnghenghiep3.png") no-repeat center;
+}
+.hinhnghenghiep3::before{
+    background-color: rgba(0, 0, 0, 0.37);
+    content: '';
+    display: none;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    border-radius: 16px;
+  }
+
+  .hinhnghenghiep3::after{
+    background-color: rgba(0, 0, 0, 0.37);
+    content: '';
+    display: none;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    border-radius: 16px;
+    background: url("../../images/iconeye.png") no-repeat center;
+  }
+
+.hinhnghenghiep3:hover::after{
+    display: block;
+}
+.hinhnghenghiep3:hover::before{
+    display: block;
+}
+
+.hinhnghenghiep4{
+    background: url("../../images/hinhnghenghiep4.png") no-repeat center;
+}
+.hinhnghenghiep4::before{
+    background-color: rgba(0, 0, 0, 0.37);
+    content: '';
+    display: none;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    border-radius: 16px;
+  }
+
+  .hinhnghenghiep4::after{
+    background-color: rgba(0, 0, 0, 0.37);
+    content: '';
+    display: none;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    border-radius: 16px;
+    background: url("../../images/iconeye.png") no-repeat center;
+  }
+
+.hinhnghenghiep4:hover::after{
+    display: block;
+}
+.hinhnghenghiep4:hover::before{
+    display: block;
+}
+
+/* ////////video/////// */
+.video-container{
+
+}
+
+.video-container iframe{
+    width: 756px;
+    height: 350px;
+}
+
+
+/* Cài đặt */
+.leftcaidat{
+    width: 50%;
+    height: 706px;
+}
+.rightcaidat{
+    width: 50%;
+}
+.imagecaidat{
+    display: inline-block;
+    background: url("../../images/imagecaidat.png") no-repeat center;
+    width: 100%;
+    height: 100%;
+    transform: translateY(-00%);
+    transition: 0.5s;
+
+}
+
+.ellipsecaidat{
+    width: 100%;
+    height: 33px;
+    transition: 0.5s;
+    background: #958f8f;
+    position: absolute;
+    bottom: 0;
+}
+
+.leftcaidat:hover .ellipsecaidat{
+    width: 100%;
+    height: 45px;
+    background: #958f8f;
+    position: absolute;
+    bottom: 0;
+}
+
+.leftcaidat:hover .imagecaidat{
+    transform: translateY(-10%);
+}
+
+.taiappcaidat{
+    width: 100%;
+    height: 46px;
+}
+
+.downloadappstoresetting{
+    background: #fff url("../../images/downloadappstore.png") no-repeat center;
+    width: 100%;
+    height: 46px;
+    border-radius: 7.2px;
+    background-size: 100% 100%;
+}
+
+.downloadappchplaysetting{
+    background: #fff url("../../images/downloadchplay.png") no-repeat center;
+    width: 100%;
+    height: 46px;
+    border-radius: 7.2px;
+    background-size: 100% 100%;
+}
+
+
+
+/* Liên hệ */
+.formcontact{
+    width:100%;
+}

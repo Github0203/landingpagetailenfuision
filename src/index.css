@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  margin: 0;
+  font-family: LatoRegular;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+@font-face {
+  font-family: 'LatoRegular';
+  src: url(./components/fonts/Lato-Regular.ttf) format('opentype');
+}
+
+@font-face {
+    font-family: 'LatoBold';
+    src: url(./components/fonts/Lato-Bold.ttf) format('opentype');
+}
+
+@font-face {
+    font-family: 'LatoBlack';
+    src: url(./components/fonts/Lato-Black.ttf) format('opentype');
+}
+
+* {
+  font-family: LatoRegular;
+}

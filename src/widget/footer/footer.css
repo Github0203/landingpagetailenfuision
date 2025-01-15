@@ -1,0 +1,85 @@
+.logofooter {
+    display: block;
+    width: 171px;
+    height: 47px;
+    background: url('../../images/logo.svg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%
+}
+.facebook {
+    display: block;
+    width: 40px;
+    height: 40px;
+    background: url('../../images/facebook.png');
+    background-repeat: no-repeat;
+}  
+.linkedin {
+    display: block;
+    width: 40px;
+    height: 40px;
+    background: url('../../images/linkedin.png');
+    background-repeat: no-repeat;
+}  
+.twitter {
+    display: block;
+    width: 40px;
+    height: 40px;
+    background: url('../../images/twitter.png');
+    background-repeat: no-repeat;
+}  
+.pinterest {
+    display: block;
+    width: 40px;
+    height: 40px;
+    background: url('../../images/pinterest.png');
+    background-repeat: no-repeat;
+}  
+.instagram {
+    display: block;
+    width: 40px;
+    height: 40px;
+    background: url('../../images/instagram.png');
+    background-repeat: no-repeat;
+}  
+.youtube {
+    display: block;
+    width: 40px;
+    height: 40px;
+    background: url('../../images/youtube.png');
+    background-repeat: no-repeat;
+}  
+.logophonefooter {
+    display: block;
+    width: 36px;
+    height: 36px;
+    background: url('../../images/logophonefooter.png');
+    background-repeat: no-repeat;
+}  
+.iconguifooter{
+    display: block;
+    width: 16px;
+    height: 16px;
+    background: url("../../images/iconguifooter.png") no-repeat center;
+    background-repeat: no-repeat;
+  }
+.iconguifooter {
+    display: block;
+    width: 16px;
+    height: 16px;
+    background: url('../../images/iconguifooter.png');
+    background-repeat: no-repeat;
+}  
+.chplay {
+    display: block;
+    width: 135px;
+    height: 40px;
+    background: url('../../images/chplay.png');
+    background-repeat: no-repeat;
+}  
+.appstore {
+    display: block;
+    width: 135px;
+    height: 40px;
+    background: url('../../images/appstore.png');
+    background-repeat: no-repeat;
+}  

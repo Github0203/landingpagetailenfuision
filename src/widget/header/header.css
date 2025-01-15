@@ -1,0 +1,12 @@
+.logo {
+    display: block;
+    width: 218px;
+    height: 47px;
+    background: url('../../images/logo.svg');
+    background-repeat: no-repeat;
+  }
+  .header{
+   height: 80px;
+   width: 100%;
+   background: #FFEEEE;
+  }

@@ -1,0 +1,1 @@
+const secondColor = {backgroundColor: 'FFEEEE'};
