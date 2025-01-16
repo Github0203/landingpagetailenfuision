@@ -7,7 +7,7 @@ import Caidat from './caidat.tsx';
 import Lienhe from './lienhe.tsx';
 
 function Body() {
-    // console.log(secondColor);
+  
   return (
     <div>
         <Trangchu />

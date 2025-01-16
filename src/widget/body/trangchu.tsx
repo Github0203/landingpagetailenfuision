@@ -1,5 +1,6 @@
 import React from 'react';
 import './body.css';
+import ImacSlider from '../../components/imacslider/imacslider.tsx';
 
 function Trangchu() {
     // console.log(secondColor);
@@ -45,66 +46,8 @@ function Trangchu() {
       </div>
     </div>
     <div className="grow shrink basis-0 flex-col justify-start items-start gap-2.5 inline-flex">
-      <div className="self-stretch h-[612.36px] flex-col justify-start items-center gap-[47.79px] flex">
-        <div className="w-[645.63px] h-[534.70px] relative">
-          <img className="w-[195.22px] h-[5.09px] left-[225.33px] top-[529.61px] absolute blur-[2.81px]" src="https://via.placeholder.com/195x5" />
-          <div className="w-[645.63px] h-[533.78px] left-0 top-0 absolute">
-            <div className="w-[196.38px] h-[89.85px] left-[224.63px] top-[443.93px] absolute">
-            </div>
-            <div className="w-[645.63px] h-[443.93px] left-0 top-0 absolute">
-              <div className="w-[645.63px] h-[58.59px] left-0 top-[385.34px] absolute bg-gradient-to-r from-[#a5a6aa] via-[#a6a8ac] to-[#e0e2e2] rounded-bl-[32.02px] rounded-br-[32.02px] shadow-[0px_-1.0330045223236084px_0px_0px_rgba(0,0,0,0.30)]" />
-              <div className="w-[24.28px] h-[29.80px] left-[310.66px] top-[399.25px] absolute">
-              </div>
-              <div className="w-[645.63px] h-[384.88px] left-0 top-0 absolute bg-[#030303] rounded-tl-[34.61px] rounded-tr-[34.61px]" />
-              <div className="w-[4.86px] h-[4.86px] left-[319.80px] top-[8.57px] absolute">
-              </div>
-              <div className="w-[593.76px] h-[334.16px] left-[25.71px] top-[27.56px] absolute bg-[#1f1f1f]" />
-            </div>
-          </div>
-          <div className="w-[592.91px] h-[333.47px] left-[26.23px] top-[28.38px] absolute flex-col justify-start items-start gap-[14.93px] inline-flex overflow-hidden">
-            <div className="justify-start items-center inline-flex">
-              <div className="w-[592.83px] h-[333.47px] relative">
-                <div className="w-[592.83px] h-[333.47px] left-0 top-0 absolute bg-white" />
-                <div className="w-[412.13px] h-[90.08px] left-[105.34px] top-[123.03px] absolute justify-center items-center inline-flex overflow-hidden">
-                  <div className="grow shrink basis-0 self-stretch relative">
-                    <div className="w-[306.50px] h-[36.21px] left-[105.63px] top-[26.90px] absolute">
-                    </div>
-                    <div className="w-[90.38px] h-[89.98px] left-0 top-0 absolute">
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="w-[592.83px] h-[333.47px] relative">
-                <div className="w-[592.83px] h-[333.47px] left-0 top-0 absolute bg-[#80ff91]" />
-                <div className="w-[412.13px] h-[90.08px] left-[105.34px] top-[123.03px] absolute justify-center items-center inline-flex overflow-hidden">
-                  <div className="grow shrink basis-0 self-stretch relative">
-                    <div className="w-[306.50px] h-[36.21px] left-[105.63px] top-[26.90px] absolute">
-                    </div>
-                    <div className="w-[90.38px] h-[89.98px] left-0 top-0 absolute">
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="w-[592.83px] h-[333.47px] relative">
-                <div className="w-[592.83px] h-[333.47px] left-0 top-0 absolute bg-[#80fffa]" />
-                <div className="w-[412.13px] h-[90.08px] left-[105.34px] top-[123.03px] absolute justify-center items-center inline-flex overflow-hidden">
-                  <div className="grow shrink basis-0 self-stretch relative">
-                    <div className="w-[306.50px] h-[36.21px] left-[105.63px] top-[26.90px] absolute">
-                    </div>
-                    <div className="w-[90.38px] h-[89.98px] left-0 top-0 absolute">
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="justify-start items-center gap-[14.93px] inline-flex">
-          <div className="w-[59.74px] h-[29.87px] bg-[#b32024] rounded-full" />
-          <div className="w-[29.87px] h-[29.87px] bg-[#b3b9c4] rounded-full" />
-          <div className="w-[29.87px] h-[29.87px] bg-[#b3b9c4] rounded-full" />
-        </div>
-      </div>
+   
+      <ImacSlider />
     </div>
   </div>
 </div>
