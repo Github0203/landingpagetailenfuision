@@ -110,7 +110,7 @@ function handleSetActiveBangGia(){
             duration={500}
           >
            <div className={`text-xl classNameleading-7 
-           ${activeGioithieu ? 'text-[#6939DB]' : 'text-gray-500'}
+           ${activeGioithieu ? 'text-[#6939DB]' : 'text-[#05142e]'}
            ${activeGioithieu ? 'font-bold' : 'font-normal'}
            ` }
            onClick={() => handleSetActiveGioithieu()}
