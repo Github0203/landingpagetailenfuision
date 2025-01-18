@@ -2,23 +2,26 @@
   text-align: center;
   display: block;
   position: relative;
-  min-width: 1920px;
-  background: #FFEEEE;
+  background: #DEFFDF;
 }
 
 .container{
   width: 80%;
 }
 body {
-  background: #FFEEEE;
+  background: #DEFFDF;
 }
 
 .buttonlandingpage:hover{
-  background-color: #b32024;
+  background-color: #6939DB;
 }
 .buttonlandingpage:hover *{
   color: white;
 }
 .menuitem:hover{
-  color: #b32024;
+  color: #6939DB;
+}
+
+*{
+min-width: unset !important
 }

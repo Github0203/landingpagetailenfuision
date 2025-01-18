@@ -1,0 +1,14 @@
+.openimage{
+    background: #00000047;
+    position: fixed;
+    top: 0;
+    z-index: 99999;
+}
+.openimage .image{
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
+    background-position: center !important;
+    background-size: contain  !important;
+}

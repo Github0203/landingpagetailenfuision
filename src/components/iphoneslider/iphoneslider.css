@@ -84,7 +84,7 @@
  .carousel_viewport:before{
   display:block;
   content:"";
-  background: url('../../images/appleimac.png');
+  background: url('../../images/iphone.png');
   width: 645.63px;
   height: 534.7px;
   background-size: 100% 100%;
@@ -155,7 +155,7 @@
     top: 1000;
     left: 0;
     padding-top: 100px;
-    z-index: 9999;
+    z-index: 9998;
   }
   
   .carousel__navigation-list,
@@ -192,50 +192,61 @@
   
   
   
-.imac{
+.iphone{
   position: relative;
   width: 100%;
   text-align: center;
 }
   .slidetrangchu{
     width: 598px;
-    height: 338px;
+    height: 530px;
     position:relative;
   }
   .slidetrangchu .img{
     width: 100%;
-    height: 338px;
+    height: 528px;
+    overflow: idden;
   }
   .slidetrangchu::before{
     content: '';
     display:block;
-    background: url('../../images/appleimac.png');
-    width: 645.63px;
+    background: url('../../images/iphone.png');
+    background-position: center;
+    width: 315.44px;
     height: 534.7px;
     background-size: 100% 100%;
     background-repeat: no-repeat;
     position: absolute;
     top: 0;
-    z-index: 9999;
+    z-index: 9998;
   }
 
   .slick-slider{
     position: relative;
     left: 0px;
-    top: 24px;
-    height: 338px;
-    width: 645.63px;
-    height: 534.7px;
+    top: 10px;
+    width: 310px;
+    height: 560px;
   }
   .slick-prev, .slick-next{
     display:none !important;
   }
+  .slick-list{
+    height: 645.7px;
+    overflow: hidden;
+  }
+  .slick-track{
+    overflow:hidden;
+    height: 530px;
+    border-radius: 24px;
+  }
   .slick-slide img{
-    height: 338px;
-    width: 100%;
+    height: 521px;
+    width: 99%;
+    border-radius: 40px;
   }
   .slick-dots li{
-    border-radius: 9999px !important;
+    border-radius: 9998px !important;
   }
   .slick-dots li.slick-active button:before{
     background: url('../../images/pointactive.png');
@@ -275,3 +286,22 @@
   .slick-dots li button:before{
     content: '' !important;
   }
+
+  @media only screen and (max-width: 1365px) {
+    .slidetrangchu::before{
+      content: '';
+    display:block;
+    background: url('../../images/iphonemobile.png');
+    background-position: center;
+    width: 315.44px;
+    height: 534.7px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    z-index: 9998;
+    }
+}
+
+
+ 

@@ -1,0 +1,129 @@
+
+@media only screen and (max-width: 1365px) {
+    #trangchu:after{
+        display: none;
+    }
+}
+@media only screen and (max-width: 900px) {
+    #trangchu:after{
+        display: none;
+    }
+    .menuheadermobile{
+        display:block;
+    }
+    .container{
+        width: 95%;
+        max-width: unset;
+    }
+    .widthsection{width: 95%;}
+        #trangchu{
+            padding: 32px 0px 32px 0;
+            height: 1300px;
+            }
+            #trangchu div:nth-child(1){
+                flex-direction: column;
+                }
+            .leftwidth{
+                margin-bottom: 32px;
+                width: 100%;
+            }
+            .iphone{
+                width: 100%;
+                align-self: stretch;
+                justify-content: center;
+                align-items: center;
+                display: inline-flex
+                ;
+            }
+
+            #gioithieu{
+                padding: 32px 0px 32px 0;
+                height: 800px;
+                }
+                #gioithieu div:nth-child(1){
+                    flex-direction: column;
+                    }
+                    .leftgioithieu{
+                        width: 100%;
+                        height: 100%;
+                    }
+                    .rightgioithieu{
+                        width: 100%;
+                        height: 100%;
+                    }
+                    .rightgioithieu:hover *{
+                    pointer-events: none;
+                    }
+                    .ellipsegioithieu, .ellipsecaidat{display:none}
+                    .nganhnghetop div:nth-child(2){
+                        flex-direction: column;
+                        
+                    }
+                    .nganhnghetop div:nth-child(3){
+                        flex-direction: column;
+                        
+                    }
+                    .nganhnghetop{height: auto;}
+                    .itemnganhnghe {width: 100%}
+                    .nganhnghebottom1, .nganhnghebottom2{
+                        flex-direction: column;
+                    }
+                    .itemtinhnang {
+                        margin-bottom: 32px;
+                    }
+                    .nganhnghebottom2left, .ganhnghebottom2right{
+                        width: 100%;
+                        margin-bottom: 32px;
+                    }
+                    .video-container {
+                        width: 100%;
+                    }
+                    .video-container iframe{
+                        width: 100%;
+
+                    }
+                
+                        #caidat div:nth-child(1){
+                            flex-direction: column;
+                            }
+                            .leftcaidat, .rightcaidat{
+                                width: 100%;
+                    }
+                    .leftcaidat:hover {
+                        pointer-events: none;
+                    }
+                    .itemsfooter{
+                        flex-direction: column;
+                    }
+                    .sitemnganhnghe{width: 100%;}
+                    .nganhnghebottom2right{
+                        width: 100%;
+                        align-items: start;
+                    }
+}
+
+@media only screen and (max-width: 600px) {
+    #trangchu{
+        padding: 32px 0px 32px 0;
+        height: auto;
+        }
+        #gioithieu{
+            height: auto;
+        }
+        #lienhe{
+            padding-bottom: 32px;
+        }
+        #caidat{
+            
+        }
+.rightwidth, .rightgioithieu, .groupimgtinhnang, .leftcaidat{display:none}
+.inputemailphone{
+    flex-direction: column;
+    }
+    .inputemail, .inputphone{width:100%}
+    .taiaptrangchu{
+        width: 150px;
+        height: 150px;
+    }
+   
+}
