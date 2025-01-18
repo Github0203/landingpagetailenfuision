@@ -71,7 +71,7 @@ function Nganhnghe() {
               <div className="text-[#05142e] text-xl font-semibold leading-[30px]">Cơ hội việc làm</div>
             </div>
             <div className="self-stretch justify-start items-center gap-8 inline-flex">
-              <div className="grow shrink basis-0 text-[#758195] text-base font-normal text-left leading-normal">Nơi quy tụ và đón đầu hàng trăm cơ hội tuyển dụng lớn đến từ hơn 90 doanh nghiệp, tập đoàn trong và ngoài nước.</div>
+              <div className="grow shrink basis-0 text-[#758195] text-base font-normal text-left leading-normal">Quy tụ và đón hàng trăm cơ hội tuyển dụng lớn đến từ các doanh nghiệp, tập đoàn trong và ngoài nước.</div>
             </div>
           </div>
         </div>
