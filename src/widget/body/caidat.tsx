@@ -12,7 +12,7 @@ function Caidat() {
         <div className="ellipsecaidat rounded-full blur-[50px]"></div>
       </div>
       <div className="rightcaidat grow shrink basis-0 flex-col justify-start items-start gap-1 inline-flex">
-        <div className="text-[#b32024] text-4xl font-normal  leading-[95.99px]">Cài đặt</div>
+        <div className="text-[#6939DB] text-4xl font-normal  leading-[95.99px]">Cài đặt</div>
         <div className="self-stretch flex-col justify-start items-start gap-8 flex">
           <div className="flex-col justify-start items-start gap-8 flex">
             <div className="text-[#05142e] text-4xl font-bold ">Tải xuống phiên bản mới nhất của chúng tôi </div>
@@ -20,13 +20,13 @@ function Caidat() {
           </div>
           <div className="self-stretch justify-center items-center gap-16 inline-flex">
             <div className="codecaidat flex-col justify-start items-start gap-[10.20px] inline-flex">
-              <div className="qrcodecaidat bg-[#b32024] rounded justify-start items-center gap-[4.43px] inline-flex">
+              <div className="qrcodecaidat bg-[#6939DB] rounded justify-start items-center gap-[4.43px] inline-flex">
                 <div className="backgroundQR" />
               </div>
               <div className="downloadappstoresetting" />
             </div>
             <div className="codecaidat flex-col justify-start items-start gap-[10.20px] inline-flex">
-            <div className="qrcodecaidat bg-[#b32024] rounded justify-start items-center gap-[4.43px] inline-flex">
+            <div className="qrcodecaidat bg-[#6939DB] rounded justify-start items-center gap-[4.43px] inline-flex">
                 <div className="backgroundQR" />
               </div>
               <div className="downloadappchplaysetting" />
