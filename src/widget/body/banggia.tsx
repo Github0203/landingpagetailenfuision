@@ -4,8 +4,8 @@ import './body.css';
 
 function Banggia() {
   return(
-    <div id="banggia" className="bg-gray-100 py-12">
-      <div className="text-[#6939DB] text-4xl font-normal  leading-[95.99px] mb-8">Bảng giá</div>
+    <div id="banggia" className="bg-gray-100 py-8">
+      <div className="text-[#6939DB] text-4xl font-normal  leading-[95.99px] mb-8">Cài đặt</div>
   <div className="text-gray-700 body-font overflow-hidden ">
   <div className="container mx-auto flex flex-wrap">
     <div className="lg:w-1/4 mt-48 hidden lg:block">
@@ -152,7 +152,7 @@ function Banggia() {
           <span className="text-sm text-gray-600">Charging $648 per year</span>
         </div>
         <p className="bg-gray-100 text-gray-600 h-12 text-center px-2 flex items-center -mt-px justify-center border-t border-gray-300">Schlitz single-origin</p>
-        <p className="text-gray-600 text-center h-12 flex items-center justify-center">
+        <p className="bg-white text-gray-600 text-center h-12 flex items-center justify-center">
           <span className="w-5 h-5 inline-flex items-center justify-center bg-gray-500 text-white rounded-full flex-shrink-0">
             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" className="w-3 h-3" viewBox="0 0 24 24">
               <path d="M20 6L9 17l-5-5"></path>
